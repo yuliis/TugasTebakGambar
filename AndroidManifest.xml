@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tebe.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.yulis.tebakgambar.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yulis.tebakgambar.KeduaActivity"
+            android:label="@string/title_activity_kedua" >
+        </activity>
+        <activity
+            android:name="com.yulis.tebakgambar.KetigaActivity"
+            android:label="@string/title_activity_ketiga" >
+        </activity>
+        <activity
+            android:name="com.yulis.tebakgambar.KeempatActivity"
+            android:label="@string/title_activity_keempat" >
+        </activity>
+        <activity
+            android:name="com.yulis.tebakgambar.KelimaActivity"
+            android:label="@string/title_activity_kelima" >
+        </activity>
+        <activity
+            android:name="com.yulis.tebakgambar.KeenamActivity"
+            android:label="@string/title_activity_keenam" >
+        </activity>
+        <activity
+            android:name="com.yulis.tebakgambar.KetujuhActivity"
+            android:label="@string/title_activity_ketujuh" >
+        </activity>
+        <activity
+            android:name="com.yulis.tebakgambar.KedelapanActivity"
+            android:label="@string/title_activity_kedelapan" >
+        </activity>
+        <activity
+            android:name="com.yulis.tebakgambar.KesembilanActivity"
+            android:label="@string/title_activity_kesembilan" >
+        </activity>
+        <activity
+            android:name="com.yulis.tebakgambar.KesepuluhActivity"
+            android:label="@string/title_activity_kesepuluh" >
+        </activity>
+        <activity
+            android:name="com.yulis.tebakgambar.KeakhirActivity"
+            android:label="@string/title_activity_keakhir" >
+        </activity>
+        <activity
+            android:name="com.yulis.tebakgambar.FinishActivity"
+            android:label="@string/title_activity_finish" >
+        </activity>
+        <activity
+            android:name="com.yulis.tebakgambar.SepuluhActivity"
+            android:label="@string/title_activity_sepuluh" >
+        </activity>
+        <activity
+            android:name=".SebelasActivity"
+            android:label="@string/title_activity_sebelas" >
+        </activity>
+        <activity
+            android:name=".SebelassActivity"
+            android:label="@string/title_activity_sebelass" >
+        </activity>
+    </application>
+
+</manifest>
